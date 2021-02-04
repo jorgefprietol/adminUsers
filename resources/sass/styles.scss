@@ -1,0 +1,57 @@
+/************/
+/* Avatar  */
+/**********/
+.user-avatar-nav {
+  background: url('/storage/avatars/user.png') 50% 50% no-repeat;
+  background-size: auto;
+  background-size: auto 100%;
+  margin-top: -6px;
+  margin-right: 6px;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+// Tomados de AdminLTE-3
+.card .overlay, .info-box .overlay, .overlay-wrapper .overlay, .small-box .overlay {
+  border-radius: .25rem;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(255,255,255,.7);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 50;
+}
+.card > .loading-img, .card > .overlay, .info-box > .loading-img, .info-box > .overlay, .overlay-wrapper > .loading-img, .overlay-wrapper > .overlay, .small-box > .loading-img, .small-box > .overlay {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+/************/
+/* Botones */
+/**********/
+.btn-hover{
+  opacity: 0;
+  transition: 300ms;
+}
+.media:hover .btn-hover,
+tr:hover .btn-hover{
+  opacity: 1;
+}
